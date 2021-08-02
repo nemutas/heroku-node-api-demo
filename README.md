@@ -1,6 +1,9 @@
 # About
 
-API を Heroku にデプロイするための、テスト用のプロジェクトです。
+作成した API を、 Heroku へデプロイできるか試すためのテスト用のプロジェクトです。<br>
+
+デプロイした API<br>
+https://nemutus-api-demo.herokuapp.com/
 
 # Technology
 
