@@ -1,0 +1,21 @@
+{
+	"name": "heroku-node-demo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon dist/main.js",
+		"build": "tsc",
+		"debug": "nodemon --inspect dist/main.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.13",
+		"@types/node": "^16.4.10",
+		"nodemon": "^2.0.12"
+	}
+}
