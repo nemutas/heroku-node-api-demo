@@ -9,7 +9,7 @@
 	},
 	"scripts": {
 		"start": "node dist/main.js",
-		"build": "tsc",
+		"build:dev": "tsc",
 		"dev": "nodemon dist/main.js",
 		"debug": "nodemon --inspect dist/main.js"
 	},
