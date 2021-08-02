@@ -2,10 +2,15 @@
 	"name": "heroku-node-demo",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"main": "dist/main.js",
+	"engines": {
+		"node": "14.17.x",
+		"npm": "7.6.3"
+	},
 	"scripts": {
-		"start": "nodemon dist/main.js",
+		"start": "node dist/main.js",
 		"build": "tsc",
+		"dev": "nodemon dist/main.js",
 		"debug": "nodemon --inspect dist/main.js"
 	},
 	"author": "",
